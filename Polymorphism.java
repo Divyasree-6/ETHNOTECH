@@ -1,5 +1,5 @@
 //polymorphism example
-class User
+/* class User
 {
 	void pay()
 	{
@@ -15,7 +15,6 @@ class Auto extends User{
 		{
 			System.out.print("raid accepted by Auto");
 		}
-		
 	}
 }
 class Cab extends User{
@@ -32,7 +31,6 @@ class Cab extends User{
 }
 class Bike extends User{
 	int amount=80;
-
 	@Override
 	void pay()
 	{
@@ -59,4 +57,14 @@ class Polymorphism
 
 		
 		
+		 */
+class Polymorphism{
+	public static void main(String[] args)
+	{
+		int[] arr={1,1,3,4};
+		String[] arr2={"divya",new String("divya"),"anu"};
+		System.out.println(arr[0]==arr[1]);
 		
+		System.out.println(arr2[0]==arr2[1]);
+	}
+}
